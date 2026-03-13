@@ -1,2 +1,225 @@
-<h1>Hello from lparyal.com.np!</h1>
-<p>I am working on this website. It will be available soon...</p>
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Roshan — Personal Website</title>
+    <meta
+      name="description"
+      content="Roshan (Laxmi Prasad Aryal) — ideas, blogs, projects, notes, and personal knowledge base."
+    />
+    <meta name="theme-color" content="#0f1115" />
+    <meta property="og:title" content="Roshan — Personal Website" />
+    <meta
+      property="og:description"
+      content="Ideas, blogs, projects, notes, and personal knowledge base."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lparyal.com.np/" />
+    <link rel="canonical" href="https://lparyal.com.np/" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Go to home">
+          <span class="brand-dot"></span>
+          Roshan
+        </a>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-expanded="false"
+          aria-controls="siteNav"
+          aria-label="Toggle navigation"
+        >
+          ☰
+        </button>
+
+        <nav id="siteNav" class="site-nav" aria-label="Primary">
+          <a href="#ideas">Ideas & Blogs</a>
+          <a href="#projects">Projects</a>
+          <a href="#notes">Notes</a>
+          <a href="#about">About</a>
+          <a href="#contact" class="nav-cta">Contact</a>
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+            <span class="theme-icon">◐</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="home" class="hero section">
+        <div class="container">
+          <p class="eyebrow">Laxmi Prasad Aryal</p>
+          <h1>
+            Engineering mind, literary soul —
+            <span class="gradient-text">I build, think, and write.</span>
+          </h1>
+          <p class="lead">
+            I’m Roshan, an informatics engineering student sharing ideas, essays,
+            projects, and evolving notes from my learning journey.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#ideas">Read Ideas</a>
+            <a class="btn btn-ghost" href="#projects">View Projects</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="ideas" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Ideas & Blogs</h2>
+            <p>Thoughts on technology, learning, creativity, and life.</p>
+          </div>
+          <div class="grid cards-3">
+            <article class="card">
+              <p class="card-kicker">Latest</p>
+              <h3>Designing a Learning System That Actually Works</h3>
+              <p>How I structure learning through projects, reflection, and notes.</p>
+              <a href="#" class="card-link">Read article →</a>
+            </article>
+            <article class="card">
+              <p class="card-kicker">Essay</p>
+              <h3>Why Engineers Should Write</h3>
+              <p>Writing clarifies thinking and strengthens technical depth.</p>
+              <a href="#" class="card-link">Read article →</a>
+            </article>
+            <article class="card">
+              <p class="card-kicker">Perspective</p>
+              <h3>Building Calm, Useful Interfaces</h3>
+              <p>What makes digital products feel intuitive and human.</p>
+              <a href="#" class="card-link">Read article →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p>Selected works from my engineering and creative experimentation.</p>
+          </div>
+          <div class="grid cards-2">
+            <article class="card">
+              <h3>Project One (Coming Soon)</h3>
+              <p>
+                A full project case study with problem, architecture, and implementation notes.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Project Two (Coming Soon)</h3>
+              <p>
+                Practical build focused on performance, usability, and maintainable code.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="notes" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Notes / Knowledge Base</h2>
+            <p>Short technical notes and structured learning references.</p>
+          </div>
+          <div class="grid cards-3">
+            <article class="card">
+              <h3>Networking Basics</h3>
+              <p>OSI model, TCP/IP, and practical communication flow in systems.</p>
+            </article>
+            <article class="card">
+              <h3>Web Performance Checklist</h3>
+              <p>Loading speed, accessibility, responsive behavior, and optimization.</p>
+            </article>
+            <article class="card">
+              <h3>UI/UX Principles</h3>
+              <p>Hick’s Law, Fitts’s Law, and Nielsen heuristics in real interfaces.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-wrap">
+          <div>
+            <div class="section-head">
+              <h2>About</h2>
+            </div>
+            <p>
+              I’m <strong>Roshan</strong> (officially <strong>Laxmi Prasad Aryal</strong>),
+              an informatics engineering student who enjoys building useful digital products and
+              expressing ideas through writing.
+            </p>
+            <p>
+              My work sits between technology and creativity: I explore clean systems, user-focused
+              interfaces, and thoughtful writing as a way to document learning and share perspective.
+            </p>
+            <p>
+              This website is my public space for projects, articles, and evolving notes.
+            </p>
+          </div>
+          <aside class="about-aside card">
+            <h3>Profiles</h3>
+            <ul class="social-list">
+              <li><a href="https://www.linkedin.com/in/laxmi-prasad-aryal-4b3b6b291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/roshan.0708?igsh=MW9rdDdneDNyZ3Nhcw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+              <li><a href="https://www.tiktok.com/@roshan.aryal08?_r=1&_t=ZS-94fNJ2Bvroz" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+              <li><a href="https://www.facebook.com/share/1DEPyBXX5e/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+              <li><a href="mailto:rosnaryal0655@gmail.com">Email</a></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Contact</h2>
+            <p>
+              Email me directly at
+              <a href="mailto:rosnaryal0655@gmail.com">rosnaryal0655@gmail.com</a>
+              or send a message using the form.
+            </p>
+          </div>
+
+          <form
+            class="contact-form card"
+            action="https://formspree.io/f/your_form_id"
+            method="POST"
+          >
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="6" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+            <p class="form-note">I usually respond within a few days.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Roshan. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
